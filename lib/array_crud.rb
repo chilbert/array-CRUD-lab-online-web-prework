@@ -8,7 +8,9 @@ end
 
 def add_element_to_end_of_array(array, element)
   lesson = array
-  puts lesson.push("element")
+  lesson.push("element")
+
+  puts lesson.inspect
 
 end
 
